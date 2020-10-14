@@ -1,0 +1,4 @@
+{
+    "git.ignoreLimitWarning": true,
+    "solidity.compileUsingRemoteVersion": "v0.6.2+commit.bacdbe57"
+}

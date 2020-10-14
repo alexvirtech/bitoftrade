@@ -1,0 +1,26 @@
+{
+  "contracts": {},
+  "solidityLibs": {},
+  "proxies": {
+    "btf-deposits/BTF": [
+      {
+        "address": "0xe78A0F7E598Cc8b0Bb87894B0F60dD2a88d6a8Ab",
+        "kind": "NonProxy",
+        "bytecodeHash": "37e8651c5d5cd40b8f236d69d1a37e4c76e1ea5957e772fc1030fda7fc0c751b"
+      }
+    ],
+    "btf-deposits/BTFDepositPool": [
+      {
+        "address": "0x5b1869D9A4C187F2EAa108f3062412ecf0526b24",
+        "kind": "NonProxy",
+        "bytecodeHash": "e1856f397789f53eb8653b6abd94f1f6c95cc51992c04e641ce21ad4c0af80a3"
+      },
+      {
+        "address": "0xCfEB869F69431e42cdB54A4F4f105C19C080A601",
+        "kind": "NonProxy",
+        "bytecodeHash": "52e495082754c0ebbc46075e013fab835b8185cd77804d2c00bd8bc5df71cef2"
+      }
+    ]
+  },
+  "manifestVersion": "2.2"
+}

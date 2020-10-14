@@ -1,0 +1,75 @@
+npm init
+npm i --save-dev @openzeppelin/cli
+npm i --save-dev @openzeppelin/contracts
+npx openzeppelin init
+
+npm install --save-dev ganache-cli
+npx ganache-cli --deterministic --account_keys_path accounts.json
+
+// oz dependencies
+https://docs.openzeppelin.com/cli/2.8/dependencies
+
+npx oz compile --solc-version 0.6.2
+npx oz deploy 
+
+npm i web3
+npm i @openzeppelin/contract-loader
+
+
+for deployment in Ropsten
+npm i @truffle/hdwallet-provider
+//const HDWalletProvider = require('@truffle/hdwallet-provider');
+
+// github
+https://github.com/alexvirtech/btf1
+https://stackoverflow.com/questions/53324662/what-are-the-git-commands-to-sync-a-visual-studio-code-project-to-github
+https://stackoverflow.com/questions/46877667/how-to-add-a-new-project-to-github-using-vs-code
+
+https://stackoverflow.com/questions/45891052/vs-code-how-to-use-github-with-existing-local-project/54101673#54101673
+
+create a new github repository.
+Goto the command line in VS code.(ctrl+`)
+Type following commands.
+git init
+git commit -m "first commit"
+git remote add origin https://github.com/alexvirtech/BTF-test
+//git push -u origin master
+git push -f origin master
+
+// remove file
+git filter-branch --tree-filter 'rm -f https://github.com/alexvirtech/btf1/blob/master/networks.js' HEAD
+
+https://git-scm.com/docs/gitignore
+
+// comments cleaner
+https://tools.knowledgewalls.com/remove-comments-from-any-program-online
+
+// random
+https://eattheblocks.com/how-to-generate-a-random-number-in-smart-contract/
+
+
+
+// deposit - withdrawal
+https://blog.cotten.io/defi-deposit-account-tutorial-2d66def4434
+
+// create smart contract by user (from user account)
+https://medium.com/coinmonks/compiling-and-deploying-ethereum-smart-contracts-with-pure-javascript-4bee3bfe99bb
+
+// how to in the site example
+https://medium.com/sesameopen/walkthrough-how-to-stake-so-token-71dcf2348b64
+
+
+// smart contract deployment with web3
+https://www.edureka.co/blog/ethereum-smart-contract-deployment-web3/
+npm install web3 --save
+npm install ethereumjs-tx  --save
+
+
+// wrapped tokens
+https://yos.io/2019/07/13/smart-contract-extensibility-wrapped-tokens/
+
+
+// deployment to mainnet 
+//- change interval config params (BTFDepositPool, 14 - 17)
+//- change interval 1 minute to 1 day (BTFDepositPool, 68)
+-- depReportAll - use mainnet version (BTFDepositPool, 143)

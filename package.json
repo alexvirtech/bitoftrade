@@ -1,0 +1,24 @@
+{
+  "name": "btf-deposits",
+  "version": "1.0.0",
+  "description": "deposit BTF smart contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@openzeppelin/cli": "^2.8.2",
+    "@openzeppelin/contracts": "^3.2.0",
+    "ganache-cli": "^6.12.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contract-loader": "^0.6.1",
+    "ethereumjs-tx": "^2.1.2",
+    "ethereumjs-wallet": "^1.0.1",
+    "fs": "0.0.1-security",
+    "request": "^2.88.2",
+    "web3": "^1.3.0"
+  }
+}
